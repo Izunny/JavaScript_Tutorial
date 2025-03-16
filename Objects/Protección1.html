@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>The Object.isFrozen() Method</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create Array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// Seal Array
+Object.seal(fruits);
+
+// This will return true
+let answer = Object.isSealed(fruits);
+document.getElementById("demo").innerHTML = answer;
+</script>
+
+</body>
+</html>
