@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Operators</h1>
+<h2>The instanceof Operator</h2>
+
+<p>The instanceof operator returns true if an object is an instance of a specified object type:</p>
+
+<p id="demo"></p>
+
+<script> 
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+document.getElementById("demo").innerHTML =
+"Map: " + (fruits instanceof Map);
+</script>
+
+</body>
+</html>
